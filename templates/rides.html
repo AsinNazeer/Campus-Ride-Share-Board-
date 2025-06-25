@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Available Rides</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+</head>
+<body class="p-4">
+  <h2 class="mb-4">Available Rides</h2>
+  {% for ride in rides %}
+    <div class="card mb-3">
+      <div class="card-body">
+        <h5 class="card-title">{{ ride[1] }} is going from {{ ride[2] }} to {{ ride[3] }}</h5>
+        <p class="card-text">Time: {{ ride[4] }}</p>
+        <p class="card-text">Contact: {{ ride[5] }}</p>
+      </div>
+    </div>
+  {% endfor %}
+</body>
+</html>

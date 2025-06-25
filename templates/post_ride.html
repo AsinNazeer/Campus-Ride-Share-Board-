@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Post a Ride</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+</head>
+<body class="p-4">
+  <h2 class="mb-4">Post a Ride</h2>
+  <form method="POST" class="w-50 mx-auto">
+    <input class="form-control mb-2" type="text" name="name" placeholder="Your Name" required>
+    <input class="form-control mb-2" type="text" name="origin" placeholder="Origin" required>
+    <input class="form-control mb-2" type="text" name="destination" placeholder="Destination" required>
+    <input class="form-control mb-2" type="datetime-local" name="time" required>
+    <input class="form-control mb-3" type="text" name="contact" placeholder="Email or Phone" required>
+    <button class="btn btn-primary w-100" type="submit">Submit</button>
+  </form>
+</body>
+</html>
