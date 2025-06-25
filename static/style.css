@@ -1,0 +1,41 @@
+body {
+  background-color: #f0f4f8;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #71fa81;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+  background-color: #71fa81;
+  border: none;
+}
+
+.footer {
+  background-color: #71fa81;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+input, button, select, textarea {
+  margin-top: 8px;
+}
